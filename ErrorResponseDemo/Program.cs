@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.AI;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using OpenAI;
 using OpenAI.Responses;
@@ -8,6 +9,12 @@ using System.ComponentModel;
 using System.Text;
 
 #pragma warning disable OPENAI001
+
+var config = new ConfigurationBuilder()
+    .AddUserSecrets<Program>()
+    .Build();
+
+var cred = new ApiKeyCredential(config["OpenAIAPIKey"]);
 
 var handler = new CustomHttpMessageHandler();
 handler.InnerHandler = new HttpClientHandler();
