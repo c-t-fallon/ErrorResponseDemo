@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>7eedc110-759a-4435-a776-a0894b644bfb</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-preview.260128.1" />
+		<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-preview.260128.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.2" />
+	</ItemGroup>
+	
+</Project>
