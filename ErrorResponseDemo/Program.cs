@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.AI;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 using OpenAI;
 using OpenAI.Responses;
 using System.ClientModel;
@@ -29,7 +28,7 @@ var opts = new OpenAIClientOptions()
 var openAIClient = new OpenAIClient(cred, opts);
 
 var client = openAIClient
-    .GetOpenAIResponseClient("gpt-5")
+    .GetResponsesClient("gpt-5")
     .AsIChatClient()
     .AsBuilder()
     .UseFunctionInvocation()
@@ -44,7 +43,7 @@ var options = new ChatOptions()
     },
     RawRepresentationFactory = client =>
     {
-        return new ResponseCreationOptions()
+        return new CreateResponseOptions()
         {
             ReasoningOptions = new ResponseReasoningOptions
             {

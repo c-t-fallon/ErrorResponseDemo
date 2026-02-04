@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="CodeInterpreterReasoningResponseStreaming/CodeInterpreterReasoningResponseStreaming.csproj" Id="f2893dac-a744-4f6d-abc0-f1084d617aaa" />
+  <Project Path="CustomPropertiesDemo/CustomPropertiesDemo.csproj" Id="92bd503d-3300-4d89-bd72-741c477e900d" />
   <Project Path="ErrorResponseDemo/ErrorResponseDemo.csproj" />
   <Project Path="RequireAttributeDemo/RequireAttributeDemo.csproj" Id="7efbc707-3184-40a6-aca4-bc051f99dc7b" />
 </Solution>
