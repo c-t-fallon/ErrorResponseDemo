@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>3205befc-b291-4e29-aa7a-4d66399f656b</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.GenAI" Version="1.2.0" />
+		<PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-rc2" />
+		<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-rc2" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.3" />
+	</ItemGroup>
+
+</Project>

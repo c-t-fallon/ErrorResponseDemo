@@ -1,6 +1,10 @@
 <Solution>
+  <Project Path="AISkillsDemo/AISkillsDemo.csproj" Id="7772bdfb-4fa0-4abd-8dec-c2a2a7f4d7b8" />
   <Project Path="CodeInterpreterReasoningResponseStreaming/CodeInterpreterReasoningResponseStreaming.csproj" Id="f2893dac-a744-4f6d-abc0-f1084d617aaa" />
   <Project Path="CustomPropertiesDemo/CustomPropertiesDemo.csproj" Id="92bd503d-3300-4d89-bd72-741c477e900d" />
   <Project Path="ErrorResponseDemo/ErrorResponseDemo.csproj" />
+  <Project Path="GeminiDemo/GeminiDemo.csproj" Id="9addfce5-52eb-4e98-8d05-3ba71b87ac65" />
   <Project Path="RequireAttributeDemo/RequireAttributeDemo.csproj" Id="7efbc707-3184-40a6-aca4-bc051f99dc7b" />
+  <Project Path="SimpleToolCallDemo/SimpleToolCallDemo.csproj" Id="880aa871-219a-48f5-9b2f-1d2a0bfefb4c" />
+  <Project Path="ToolCallLimitDemo/ToolCallLimitDemo.csproj" Id="f659b931-ff4e-44ef-9614-c75682a6ce03" />
 </Solution>
