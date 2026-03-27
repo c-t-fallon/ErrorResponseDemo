@@ -7,4 +7,5 @@
   <Project Path="RequireAttributeDemo/RequireAttributeDemo.csproj" Id="7efbc707-3184-40a6-aca4-bc051f99dc7b" />
   <Project Path="SimpleToolCallDemo/SimpleToolCallDemo.csproj" Id="880aa871-219a-48f5-9b2f-1d2a0bfefb4c" />
   <Project Path="ToolCallLimitDemo/ToolCallLimitDemo.csproj" Id="f659b931-ff4e-44ef-9614-c75682a6ce03" />
+  <Project Path="WebSearchDemo/WebSearchDemo.csproj" Id="0968288b-2858-4d76-a63e-085c48f04855" />
 </Solution>

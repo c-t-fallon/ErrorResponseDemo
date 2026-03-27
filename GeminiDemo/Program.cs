@@ -40,7 +40,7 @@ client.AsAIAgent(new ChatClientAgentOptions()
     {
         new FileAgentSkillsProvider()
     }
-})
+});
 
 ThinkingLevel GetThinkingLevel(string effortLevel) => effortLevel switch
 {
